@@ -1,24 +1,77 @@
-body {
-  background-color: #f0f0f0;
-  font-family: Arial, sans-serif;
+/* Стили для основного контента */
+#main-content {
+  margin-left: 300px; /* Ширина фиксированного списка глав */
   padding: 20px;
+}
+
+/* Эффекты текста */
+strong {
+  font-weight: bold; /* Эффект жирного шрифта */
+}
+
+em {
+  font-style: italic; /* Эффект курсивного шрифта */
+}
+
+u {
+  text-decoration: underline; /* Подчеркнутый текст */
+}
+
+s {
+  text-decoration: line-through; /* Зачеркнутый текст */
+}
+
+/* Стили для фиксированного списка глав */
+#fixed-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 260px;
+  height: 100%;
+  background-color: #f0f0f0;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+#fixed-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+#fixed-sidebar ul li {
+  margin-bottom: 10px;
+}
+
+/* Стили для тематических изображений */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Стили для якорной ссылки "Вернуться в начало" */
+.top-link {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* Стили для заметок */
+.notes {
+  background-color: #e0e0e0;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.notes p {
+  margin: 0;
+}
+
+/* Стили для ссылок в содержании */
+#fixed-sidebar a {
+  text-decoration: none;
   color: #333;
 }
 
-h1, h2, h3, h4 {
-  text-align: center;
-}
-
-p {
-  line-height: 1.5;
-  margin-bottom: 15px;
-}
-
-span.italic {
-  font-style: italic;
-  color: #888;
-}
-
-.center {
-  text-align: center;
+#fixed-sidebar a:hover {
+  color: #0078d4;
 }
