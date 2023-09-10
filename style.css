@@ -1,60 +1,12 @@
-h1 {
-  text-align: center;
-  font-size: 24px;
-  color: #333;
-  margin-bottom: 20px;
-}
-
-p {
-  line-height: 1.5;
-  margin-bottom: 15px;
-}
-
-em {
-  font-style: italic;
-  color: #888;
-}
-
-h2 {
-  text-align: center;
-  font-size: 20px;
-  color: #555;
-  margin: 20px 0 10px;
-}
-
-h3, h4 {
-  font-size: 18px;
-  color: #777;
-  margin: 15px 0 10px;
-}
-
-strong {
-  font-weight: bold;
-}
-
-
-
 body {
   background-color: #f0f0f0;
   font-family: Arial, sans-serif;
   padding: 20px;
-}
-
-body, h1, h2, h3, h4, p {
   color: #333;
 }
 
-h4 {
-  font-size: 18px;
-  color: #777;
-  margin: 15px 0 10px;
-}
-
-strong {
-  font-weight: bold;
-}
-
-span {
+h1, h2, h3, h4 {
+  text-align: center;
 }
 
 p {
@@ -62,58 +14,11 @@ p {
   margin-bottom: 15px;
 }
 
-p strong {
-  font-style: italic;
-  color: #555;
-}
-
-p em {
+span.italic {
   font-style: italic;
   color: #888;
 }
 
-p em {
-  font-style: italic;
-  color: #888;
-}
-
-p strong {
-  font-style: italic;
-  color: #555;
-}
-h4 {
-  font-size: 18px;
-  color: #777;
-  margin: 15px 0 10px;
-}
-
-strong {
-  font-weight: bold;
-}
-
-
-
-p {
-  line-height: 1.5;
-  margin-bottom: 15px;
-}
-
-p strong {
-  font-style: italic;
-  color: #555;
-}
-
-p em {
-  font-style: italic;
-  color: #888;
-}
-
-p em {
-  font-style: italic;
-  color: #888;
-}
-
-p strong {
-  font-style: italic;
-  color: #555;
+.center {
+  text-align: center;
 }
